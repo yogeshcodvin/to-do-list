@@ -1,0 +1,79 @@
+/* ToDoItem.css */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #d1d5db;
+    background-color: pink;
+    margin: 15px 0;
+}
+
+.todo-item span {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.todo-item.completed {
+    font-style: italic;
+    background-color: darkorchid;
+    color:rgb(20, 178, 62); 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button,
+.delete-button,
+.mark-button,
+.save-button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #fbbf24;
+    color: white;
+    border: none;
+}
+
+.edit-button:hover {
+    background-color: #f59e0b;
+}
+
+.delete-button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+}
+
+.delete-button:hover {
+    background-color: #dc2626;
+}
+
+.mark-button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+}
+
+.mark-button:hover {
+    background-color: #059669;
+}
+
+.save-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+}
+
+.save-button:hover {
+    background-color: #2563eb;
+}
